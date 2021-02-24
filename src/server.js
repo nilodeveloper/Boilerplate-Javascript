@@ -6,7 +6,7 @@ const action  = require('./logs/server.log.json')
 const server = () => {
     const app = express()
     app.use(routes)
-    app.listen(process.env.PORT, ()=>{console.log(action.server_on)})
+    app.listen(process.env.PORT, ()=>{console.log(action.server_on + " port: " +process.env.PORT)})
 }
 
 module.exports = server
