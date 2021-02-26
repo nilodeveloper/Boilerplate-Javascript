@@ -1,4 +1,5 @@
 {
     "index_error": "Não foi possível encontrar os produtos",
-    "detail_error": "O produto não foi encontrado"
+    "detail_error": "O produto não foi encontrado",
+    "mock_detail": "retornar produto específico"
 }
