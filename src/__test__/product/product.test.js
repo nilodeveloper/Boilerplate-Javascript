@@ -7,7 +7,7 @@ describe('Products test', function() {
         await request(config.base_url)
         .get(product_config.get)
         .expect('Content-Type', /json/)
-        .expect(201)
+        .expect(200)
         done()
     });
 })
